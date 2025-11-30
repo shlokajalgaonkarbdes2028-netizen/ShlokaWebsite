@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>End Sem</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body { font-family: 'Arial', sans-serif; }
+
+    .hero { 
+      background:#E46A3B; 
+      color:white; 
+      padding:130px 20px; 
+      text-align:center; 
+      font-weight:800; 
+      font-size:38px; 
+    }
+
+    .team-section { 
+      background:#0A2B4A; 
+      color:white; 
+      padding:70px 20px; 
+      text-align:center; 
+    }
+
+    .work-sub {
+      width: 100%;
+      color: #E46A3B;
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    .work-heading {
+      text-align: left;
+      margin-top: 30px;
+    }
+
+    .work-title {
+      font-size: 88px;
+      line-height: 0.9;
+      font-weight: 800;
+      color: #0A2B4A;
+      text-align: left;
+    }
+
+    .work-title a {
+      color: inherit; 
+      text-decoration: none;
+      transition: color 0.3s ease; 
+    }
+
+    .work-title a:hover {
+      color: #E46A3B; 
+      cursor: pointer;
+    }
+
+    .work-para {
+      font-size: 18px;
+      max-width: 450px;
+      margin-top: 15px; 
+      color: #E46A3B; 
+      font-weight: 500;
+    }
+
+    .work-img {
+      width: 100%;
+      max-width: 700px; 
+      float: right; 
+      margin-right: -30px;
+    }
+
+    .team-heading { 
+      font-size: 72px !important;
+      font-weight: 800;
+      text-align: center;
+      margin-top: 40px; 
+      color: #E46A3B;
+    }
+
+    .team-sub {
+      font-size: 18px !important;
+      font-weight: 500;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .team-img { 
+      width:100%; 
+      border-radius:6px; 
+      transition: transform 0.4s ease; 
+      transform-origin: center;
+    }
+
+    .team-img:hover {
+      transform: scale(1.06); 
+    }
+
+    .clients-title {
+      font-size: 72px;
+      font-weight: 800;
+      color: #E46A3B;
+      line-height: 1;
+    }
+
+    .footer-main { 
+      background:#E46A3B; 
+      color:white; 
+      padding:60px 20px; 
+      font-size:36px; 
+      font-weight:800; 
+      text-align:center; 
+    }
+
+    .client-card {
+      position: relative;
+      width: 100%;
+      cursor: pointer;
+    }
+
+    .client-card img {
+      width: 100%;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    .client-card .hover-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      opacity: 0;
+    }
+
+    .client-card:hover .hover-img { opacity: 1; }
+    .client-card:hover .default-img { opacity: 0; }
+
+    .bottom-footer { 
+      background:black; 
+      color:white; 
+      text-align:center; 
+      padding:10px; 
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-white py-3 shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="centrix logo.jpeg" height="40">
+    </a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  WORK CAN 
+  <br> BE MUNDANE,<br> <br> <br> 
+  WORKPLACE <br>
+  SHOULDN’T BE.
+</section>
+
+<!-- WORK SECTION -->
+<section id="work" class="container py-5">
+  <div class="work-sub d-flex justify-content-between px-3 mb-5">
+    <span>Design & Build</span>
+    <span>Build</span>
+    <span>Consult</span>
+  </div>
+
+  <div class="row align-items-center">
+
+    <div class="col-md-6">
+      <div class="work-heading">
+        <h2 class="work-title">
+          <a href="projects.html">
+            THE <br> WORK.
+          </a>
+        </h2>
+        <p class="work-para">Crafting dynamic workspaces through innovative design seamless build!</p>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <img src="THE WORK.png" class="img-fluid rounded work-img" />
+    </div>
+
+  </div>
+</section>
+
+<!-- MEET THE TEAM -->
+<section id="team" class="team-section">
+  <div class="container mt-5">
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4">
+        <a href="member 1.html">
+          <img src="ADRIAN.jpg" class="team-img">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="member 2.html">
+          <img src="THEO.jpg" class="team-img">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="member 3.html">
+          <img src="ANNA.jpg" class="team-img">
+        </a>
+      </div>
+    </div>
+
+    <h2 class="team-heading">MEET THE TEAM.</h2>
+    <p class="team-sub">The makers redefining the modern workplace!</p>
+  </div>
+</section>
+
+
+  <h2 class="team-heading">MEET THE TEAM.</h2>
+  <p class="team-sub">The makers redefining the modern workplace!</p>
+</section>
+
+<!-- HEAR FROM OUR CLIENTS -->
+<section class="clients-section container text-center py-5">
+  <h2 class="clients-title">“HEAR FROM”<br>OUR CLIENTS</h2>
+
+  <div class="row justify-content-center mt-4 g-4">
+    <div class="col-md-3">
+      <div class="client-card">
+        <img src="puma client card.png" class="default-img">
+        <img src="pume client card hover.png" class="hover-img">
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="client-card">
+        <img src="FNF client card.png" class="default-img">
+        <img src="fnf client card hover.png" class="hover-img">
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="client-card">
+        <img src="homegrp clientcard.png" class="default-img">
+        <img src="homegroup clientcard over.png" class="hover-img">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="footer-main">
+  CENTRIX PROJECTS
+</section>
+<footer class="bottom-footer">
+  © 2025 | All rights reserved
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PUMA Duplicate Layout</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      background: #ffffff;
+      font-family: Arial, sans-serif;
+    }
+
+    /* HERO SECTION */
+    .hero-wrapper {
+      width: 100%;
+      margin: 0 0 30px 0;
+      background: #e45528;
+      padding: 10px;
+      position: relative;
+    }
+    .hero-img {
+      width: 100%;
+      display: block;
+    }
+
+    /* UPDATED — smaller + hover + clickable back button */
+    .puma-logo-overlay {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      width: 80px;
+      transition: transform 0.25s ease;
+      cursor: pointer;
+    }
+    .puma-logo-overlay:hover {
+      transform: scale(1.12);
+    }
+
+    /* CONTENT SECTION */
+    .content-section {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 40px;
+    }
+
+    .info-table td {
+      padding: 10px 0;
+    }
+    .left-logo {
+      width: 150px;
+      margin-bottom: 15px;
+    }
+
+    /* BOTTOM SECTION */
+    .bottom-section {
+      max-width: 1500px;
+      background: #0c1c3d;
+      padding: 40px 20px;
+      margin: 20px auto;
+    }
+    .bottom-img {
+      width: 100%;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP IMAGE BLOCK -->
+  <div class="hero-wrapper position-relative">
+    <img src="puma page pic.png" class="hero-img" />
+
+    <!-- BACK BUTTON WITH LINK + HOVER -->
+    <a href="projects.html">
+      <img src="back button.png" class="puma-logo-overlay" />
+    </a>
+  </div>
+
+  <!-- WHITE CONTENT BLOCK -->
+  <div class="content-section">
+    <div class="row">
+
+      <!-- LEFT COLUMN -->
+      <div class="col-md-4">
+        <img src="puma.png" class="left-logo" />
+        <p style="font-size: 13px; line-height: 1.4;">
+          Puma wanted to create a multi-functional workspace that caters to the varying needs of young professionals.
+          The design flexibility allows them to adapt spaces to support various activity-based work settings.
+          <br><br>
+          The studio floors, along with board rooms have eclectic designs that reflect Puma’s youthful identity.
+          The bright colour palette adds character creating pockets of social interaction & informal meeting spaces.
+        </p>
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div class="col-md-8">
+        <table class="w-100 info-table">
+          <tr><td><strong>Project Name</strong></td><td>PUMA</td></tr>
+          <tr><td><strong>Status</strong></td><td>Completed</td></tr>
+          <tr><td><strong>Services</strong></td><td><strong>Design & Build</strong></td></tr>
+          <tr><td><strong>Site Location</strong></td><td><strong>Whitefield, Bangalore</strong></td></tr>
+          <tr><td><strong>Area</strong></td><td><strong>1,35,000 Sft.</strong></td></tr>
+          <tr><td><strong>Project Duration</strong></td><td><strong>120 Days</strong></td></tr>
+        </table>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- BOTTOM SECTION WITH 2 IMAGES -->
+  <div class="bottom-section">
+    <div class="row g-3">
+      <div class="col-md-6">
+        <img src="puma 1.png" class="bottom-img" />
+      </div>
+      <div class="col-md-6">
+        <img src="puma 2.png" class="bottom-img" />
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-4" style="background:#000; color:#fff; margin-top:40px;">
+    <p style="margin:0; font-size:14px;">© 2025 | All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
